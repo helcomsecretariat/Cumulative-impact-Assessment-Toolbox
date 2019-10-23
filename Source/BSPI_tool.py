@@ -55,7 +55,6 @@ def getMean(csvPath, pl):
 				count += 1
 				sum += float(row[plIndex])
 		m = sum / count
-		arcpy.AddMessage(pl + " " + str(m))
 	return m
 
 def printError(message, e):
