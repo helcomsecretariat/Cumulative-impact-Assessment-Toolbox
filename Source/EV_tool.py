@@ -52,7 +52,6 @@ def getEcMatrices(csvPath, ecRasterFolder, ecgCodes):
 	else: # Python 2
 		mode = 'rb'
 
-	arcpy.AddMessage("-----. " + str(ecgCodes))
 	dict = {}
 
 	with open(csvPath, mode) as csvFile:
