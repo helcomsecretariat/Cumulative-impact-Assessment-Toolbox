@@ -12,7 +12,7 @@ Ecosystem Service tool (ES tool) – supports the identification of areas with h
 Baltic Sea Impact Index Batch tool for Ecological Values or Ecosystem Services (BSII Batch tool) –calculates the Baltic Sea Impact Index with respect to areas identified as important for ecological value or for the provision of ecosystem services. Upon selection, it addresses either each combination of ecological value criteria and ecosystem component group, or each combination of ecosystem service and ecosystem component sub-group, following the same structure as in the EV and ES tools, respectively. As input, the tool uses data layers on ecosystem components and pressures (grid layers), as well as specific sensitivity scores matrices (See below). It creates BSII grid layers for each matrix as output. Optionally, the tool also creates BSII statistics matrices. The sensitivity scores matrices needed for input to this tool can be created with the Sensitivity score matrices for BSII Batch Tool.
 
 Sensitivity score matrices for BSII Batch Tool – creates new sensitivity score matrices by combination of existing matrices. Using the BSII sensitivity scores matrix and either the ecological value or ecosystem services coefficients matrices as input, the tool creates one specific sensitivity score matrix for each combination of ecological value criteria and ecosystem component group, or for each combination of ecosystem service and ecosystem component sub-group.
- 
+
 
 Copyright (C) 2019 Helcom
 
@@ -20,4 +20,4 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. Let us know if you have any questions at helcom.data@helcom.fi
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/. Let us know if you have any questions at data@helcom.fi

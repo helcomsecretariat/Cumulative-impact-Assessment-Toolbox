@@ -1,0 +1,52 @@
+;;;;Biodiversity;Rarity;Importance for threatened, endangered or declining species and/or habitats;Vulnerability, fragility, sensitivity or slow recovery;Special importance for life-history stages of species;Biological productivity
+EC LAYER;EC CODE;EC group;GROUP BY;EV_BD;EV_RA;EV_IM;EV_VU;EV_SI;EV_BP
+Productive surface waters;EC_01;;;0;0;0;0;0;0
+Oxygenated deep waters;EC_02;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Infralittoral hard bottom;EC_03;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Infralittoral sand;EC_04;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Infralittoral mud;EC_05;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Infralittoral mixed;EC_06;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Circalittoral hard bottom;EC_07;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Circalittoral sand;EC_08;Benthic habitats;ECG_BH;0;1;1;1;1;1
+Circalittoral mud;EC_09;Benthic habitats;ECG_BH;0;1;1;1;1;1
+Circalittoral mixed;EC_10;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Furcellaria lumbricalis ;EC_11;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Zostera marina;EC_12;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Charophytes ;EC_13;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Mytilus edulis;EC_14;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Fucus sp;EC_15;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Sandbanks which are slightly covered by sea water at all time (1110);EC_16;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Estuaries (1130);EC_17;Benthic habitats;ECG_BH;1;1;1;0;1;1
+Mudflats and sandflats not covered by seawater at low tide (1140);EC_18;Benthic habitats;ECG_BH;0;1;0;0;0;0
+Coastal lagoons (1150);EC_19;Benthic habitats;ECG_BH;1;1;1;0;1;1
+Large shallow inlets and bays (1160);EC_20;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Reefs (1170);EC_21;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Baltic Esker Islands (UW parts 1610);EC_22;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Submarine structures made by leaking gas (1180);EC_23;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Boreal Baltic islets and small islands (UW parts 1620);EC_24;Benthic habitats;ECG_BH;1;1;1;1;1;1
+Cod abundance ;EC_25;;;0;0;0;0;0;0
+Cod spawning area ;EC_26;;;0;0;0;0;0;0
+Herring abundance ;EC_27;;;0;0;0;0;0;0
+Sprat abundance ;EC_28;;;0;0;0;0;0;0
+Distribution of demersal spawning flounder ;EC_29;;;0;0;0;0;0;0
+Abundance of pelagic spawning flounder ;EC_30;;;0;0;0;0;0;0
+Recruitment areas of perch;EC_31;;;0;0;0;0;0;0
+Recruitment areas of pikeperch ;EC_32;;;0;0;0;0;0;0
+Recruitment areas of roach ;EC_33;;;0;0;0;0;0;0
+Wintering seabirds;EC_34;Birds;ECG_BD;1;1;1;1;1;0
+Breeding seabird colonies;EC_35;Birds;ECG_BD;1;1;1;1;1;0
+Migration routes for birds;EC_36;;;0;0;0;0;0;0
+Grey seal abundance;EC_37;Mammals;ECG_MM;0;0;0;0;0;0
+Grey seal haulouts;EC_38;;;0;0;0;0;0;0
+Harbour seal abundance;EC_39;Mammals;ECG_MM;0;0;0;0;0;0
+Harbour seal haulouts;EC_40;;;0;0;0;0;0;0
+Ringed seal distribution;EC_41;Mammals;ECG_MM;1;1;1;1;0;0
+Distribution of harbour porpoise;EC_42;Mammals;ECG_MM;1;1;1;1;0;0
+Spawning areas of cod;EC_Co;Fish;;1;1;1;1;1;1
+Spawning areas of herring;EC_He;Fish;;1;0;0;1;1;1
+Spawning areas of sprat;EC_Sp;Fish;;1;0;0;0;1;1
+Spawning areas of European flounder ;EC_Ef;Fish;;1;1;1;1;1;1
+Spawning areas of Baltic flounder;EC_Bf;Fish;;1;1;1;1;1;1
+Recruitment areas of flounders;EC_Fn;Fish;;1;1;1;1;1;1
+Recruitment areas of perch;EC_Pe;Fish;;1;1;1;1;1;1
+Recruitment areas of pikeperch ;EC_Pi;Fish;;1;1;1;1;1;1
