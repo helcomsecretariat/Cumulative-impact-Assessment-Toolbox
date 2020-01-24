@@ -141,6 +141,8 @@ if __name__ == '__main__':
 		dsc = None
 		# raster index for processing
 		ecIndex = 0
+		# total BSII sum
+		bsiiSum = 0
 
 		for ec in ecLayerNames:
 
@@ -184,6 +186,8 @@ if __name__ == '__main__':
 						plTmpSumDict[pl] += tmpMatrixSum
 						# Add temp matrix sum to be written to last statistics matrix column
 						ecTmpSum += tmpMatrixSum
+						# Add temp matrix sum to be written to last statistics matrix cell
+						bsiiSum += tmpMatrixSum
 
 				except Exception as e:
 					printError("Error calculating BSII matrix or statistics matrix.", e)
@@ -218,7 +222,8 @@ if __name__ == '__main__':
 				plTmsSumsRow.append(plTmpSumDict.get(pl))
 			plTmsSumsRow.append("")
 			# Add sum of all raster values to last cell of statistics matrix
-			plTmsSumsRow.append(numpy.nansum(finalArray))
+			#plTmsSumsRow.append(numpy.nansum(finalArray))
+			plTmsSumsRow.append(bsiiSum)
 			martrixArray.append(plTmsSumsRow)
 
 			# Save statistics matrix in CSV file
